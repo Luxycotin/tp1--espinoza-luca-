@@ -1,4 +1,8 @@
-export interface ICompetidor {
-  nombre: string;
-  listarIntegrantes(): string[];
+import {IIdentificable} from "./IIdentificable";
+
+
+export interface ICompetidor extends IIdentificable {
+    nombre: string;
+    listaIntegrantes(): string[];
+    
 }

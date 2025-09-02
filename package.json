@@ -1,14 +1,28 @@
 {
-  "name": "tp-torneos",
+  "name": "tp1--espinoza-luca-",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "ts-node src/main.ts",
-    "build": "tsc"
+    "scripts": {
+    "dev": "tsx src/main.ts",
+    "build": "tsc",
+    "start": "node --enable-source-maps dist/main.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luxycotin/tp1--espinoza-luca-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luxycotin/tp1--espinoza-luca-/issues"
+  },
+  "homepage": "https://github.com/Luxycotin/tp1--espinoza-luca-#readme",
+  "type": "module",
   "devDependencies": {
     "@types/node": "^24.3.0",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.20.5",
     "typescript": "^5.9.2"
   }
 }
